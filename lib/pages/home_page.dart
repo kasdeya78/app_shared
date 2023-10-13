@@ -56,6 +56,22 @@ class HomePage extends StatelessWidget {
               leading: Icon(Icons.people),
               title: Text("Mi Perfil"),
             ),
+            ListTile(
+              leading: Icon(Icons.file_copy),
+              title: Text("Portafolio"),
+            ),
+            ListTile(
+              leading: Icon(Icons.lock),
+              title: Text("Cambiar contraseña"),
+            ),
+            Divider(
+              indent: 20,
+              endIndent: 20,
+            ),
+            ListTile(
+              leading: Icon(Icons.exit_to_app),
+              title: Text("Salir del App"),
+            ),
           ],
         ),
       ),
